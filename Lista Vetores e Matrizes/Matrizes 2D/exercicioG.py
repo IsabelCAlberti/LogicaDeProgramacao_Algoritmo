@@ -23,3 +23,12 @@ print("\nMatriz B (°F):")
 for linha in B:
     print(linha)
 
+print("\n[g] Temperaturas Celsius → Fahrenheit (4x5):")
+A = [[float(input(f"Celsius A[{i}][{j}]: ")) for j in range(5)] for i in range(4)]
+B = [[c * 9/5 + 32 for c in linha] for linha in A]
+print("Celsius (A):")
+for linha in A:
+    print(linha)
+print("Fahrenheit (B):")
+for linha in B:
+    print(linha)

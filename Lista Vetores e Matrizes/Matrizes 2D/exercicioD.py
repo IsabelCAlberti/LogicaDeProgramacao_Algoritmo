@@ -1,3 +1,5 @@
+import math
+
 # ===============================
 # Exercício d – Vetor A para matriz C 10x3
 # ===============================
@@ -11,4 +13,5 @@ for valor in A:
 print("\nMatriz C:")
 for linha in C:
     print(linha)
+
 

@@ -23,3 +23,11 @@ for i in range(5):
 print("\nMatriz C (soma de A e B):")
 for linha in C:
     print(linha)
+
+print("\n[a] Soma de duas matrizes 5x3:")
+A = [[int(input(f"A[{i}][{j}]: ")) for j in range(3)] for i in range(5)]
+B = [[int(input(f"B[{i}][{j}]: ")) for j in range(3)] for i in range(5)]
+C = [[A[i][j] + B[i][j] for j in range(3)] for i in range(5)]
+print("Matriz C (A + B):")
+for linha in C:
+    print(linha)

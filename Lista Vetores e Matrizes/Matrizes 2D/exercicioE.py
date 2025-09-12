@@ -1,7 +1,7 @@
 # ===============================
 # Exercício e – Operações diferentes em duas matrizes 12x2
 # ===============================
-print("\n=== Exercício e ===")
+print("\n[e] Vetores A e B (12 reais) → matriz C (12x2):")
 A = [float(input(f"A[{i}]: ")) for i in range(12)]
 B = [float(input(f"B[{i}]: ")) for i in range(12)]
 C = [[A[i]*2, B[i]-5] for i in range(12)]
